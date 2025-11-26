@@ -15,7 +15,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-inline: 50px;
-  margin: 0 auto;
 }
 
 .nav {
@@ -38,10 +37,6 @@ body {
   padding: 0;
 }
 
-.nav__list-item {
-  line-height: 60px;
-}
-
 .nav__list-item ~ .nav__list-item {
   margin-left: 20px;
 }
@@ -55,6 +50,7 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   position: relative;
+  line-height: 60px;
 }
 
 .nav__item-link:hover {
