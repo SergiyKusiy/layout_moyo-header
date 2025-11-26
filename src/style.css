@@ -10,14 +10,7 @@ body {
   margin: 0;
 }
 
-ul {
-  margin-block: 0;
-  padding: 0;
-}
-
 .header {
-  height: 60px;
-  max-width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,6 +34,8 @@ ul {
   flex-direction: row;
   align-items: center;
   list-style: none;
+  margin-block: 0;
+  padding: 0;
 }
 
 .nav__list-item {
